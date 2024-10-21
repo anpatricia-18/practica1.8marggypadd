@@ -1,0 +1,102 @@
+ul, ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+    border: 2px solid #777;
+}
+
+/* Modificacions */
+#cabecera {
+    clear: both;
+    padding: 1em; /* Afegir padding de 1em a tot arreu */
+}
+
+#menu {
+    clear: both;
+    padding: 0.5em; /* Afegir padding de 0.5em a tots els costats */
+    margin-bottom: 0.5em; /* Afegir un marge inferior de 0.5em */
+}
+
+#lateral {
+    float: left;
+    width: 20%;
+}
+
+#contenido {
+    float: right;
+    width: 78%;
+}
+
+#contenido #principal {
+    float: left;
+    width: 78%;
+    padding: 0.5em; /* Afegir padding de 0.5em a tots els costats */
+}
+
+#contenido #secundario {
+    float: right;
+    width: 20%;
+    padding: 0.5em; /* Afegir padding de 0.5em a tots els costats */
+}
+
+/* Nou element #publicidad */
+#publicidad {
+    padding: 0.5em; /* Afegir padding de 0.5em */
+    margin-top: 1em; /* Separació de 1em de l'element superior */
+}
+
+#pie {
+    clear: both;
+    padding-top: 0.5em; /* Afegir padding a la part superior */
+    padding-bottom: 0.5em; /* Afegir padding a la part inferior */
+    margin-top: 1em; /* Afegir marge superior de 1em */
+}
+
+/* Separació entre articles */
+#contenido #principal .articulo {
+    margin-bottom: 1em; /* Afegir separació entre articles de 1em */
+}
+
+/* Imatges dins dels articles */
+#contenido #principal .articulo img {
+    width: 25%; /* Canviar a un 25% d'ample del div que les conté */
+    float: left;
+    margin: 0.5em; /* Afegir marge de 0.5em a tots els costats */
+}
+
+/* Menu principal */
+#menu ul#menu_principal li {
+    display: inline;
+    float: left;
+}
+
+/* Peu de pàgina */
+#pie .enlaces {
+    float: left;
+}
+
+#pie .copyright {
+    float: right;
+}
